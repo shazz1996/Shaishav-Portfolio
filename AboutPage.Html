@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: black;
+
+        }
+
+        #aboutme {
+            color: white;
+            font-size: 90px;
+            display: flex;
+            position: fixed;
+            left: 450px;
+            top: 40px;
+            letter-spacing: 10px;
+
+        }
+
+        #box {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            left: 60px;
+            top: 180px;
+            width: 1200px;
+            height: 300px;
+            background-color: black;
+            padding: 10px;
+        }
+
+        #box:before {
+            content: '';
+            position: absolute;
+            top: -1px;
+            left: -1px;
+            right: -1px;
+            bottom: -1px;
+            background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+            z-index: -1;
+        }
+
+        #box:after {
+            content: '';
+            position: absolute;
+            top: -1px;
+            left: -1px;
+            right: -1px;
+            bottom: -1px;
+            background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+            z-index: -1;
+            filter: blur(12px);
+        }
+
+        #menu li {
+            font-family: 'Anton', sans-serif;
+            font-size: 15px;
+            display: inline-block;
+            position: relative;
+            padding: 10px 20px;
+            color: white;
+            color: black;
+            top: -10px;
+            right: -960px;
+            text-decoration: none;
+
+
+        }
+
+        #menu li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        #menu li a:hover {
+            font-size: 20px;
+            text-decoration: none;
+            background: rgb(131, 58, 180);
+            background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <h1 id="aboutme">About Me</h1>
+
+    <ul id="menu">
+        <li><a href="MaiNPage.html">Main Page</a></li>
+        <li><a href="Work.html">Work</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+
+
+    <div id="box">
+        <div id="content" style="position: relative; top: -18px; padding: 10px 20px;">
+            <h1>Hi! Welcome,</h1>
+            <p style="font-size:17px; text-align: left;">Myself Shaishav Harbola, If you are visiting my website and
+                hopefully you appreciate this hardwork that I have put into making of this website, I would let you know
+                that I am a self taught Designer & Web Developer.
+                I design and develope experiences that makes people's lives simple.</p>
+            <p style="font-size:17px; text-align: left;">Here are some of the skills that I have learned.</p>
+            <div id="Skills1"
+                style="background-color: rgb(156, 36, 36); width: 400px; text-align: left; display: inline; position: relative; left: 15px;">
+                <p style="font-size: 18px; font-weight: bolder;">1. Web Development</p>
+                <p>. HTML</p>
+                <p>. CSS</p>
+                <p>. Java Script</p>
+            </div>
+            <div id="Skills2"
+                style="background-color: rgb(156, 36, 36); width: 400px; text-align: left; display: inline; position: relative; left: 500px; bottom: 135px;">
+                <p style="font-size: 18px; font-weight: bolder">2. UX Designing</p>
+                <p>. Figma</p>
+                <p>. Adobe XD</p>
+                <p>. Canva</p>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <script>
+
+    </script>
+
+
+</body>
+
+</html>
